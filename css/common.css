@@ -151,6 +151,7 @@ footer p {
 .icons a {
 	margin: 0 10px;
 	transition: 0.5s ease-in-out;
+	color: black;
 }
 
 .icons a:visited {

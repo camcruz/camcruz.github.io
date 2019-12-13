@@ -1,0 +1,205 @@
+html, body {
+	font-family: 'Tajawal', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #313131;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Fonts */
+
+.tajawal {
+	font-family: 'Tajawal', sans-serif;
+}
+
+/* Font sizes */
+
+p, li {
+	font-size: 1.5em;
+}
+
+/* Colors */
+
+.mustard {
+	color: rgb(252, 206, 94);
+}
+
+.orange {
+	color: rgb(255, 140, 51);
+}
+
+.violet {
+	color: rgb(194, 73, 172);
+}
+
+.lemon {
+	color: rgb(119, 190, 93);
+}
+
+/* Overlay */
+
+.overlay {
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.75);
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.overlay-close {
+	position: absolute;
+	right: 0;
+	padding: 0 20px;
+	cursor: pointer;
+	font-size: 2em;
+}
+
+.overlay-content {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+}
+
+.overlay-content img {
+	max-height: 90%;
+	max-width: 90%;
+	margin: auto;
+}
+
+.overlay-target {
+	cursor: pointer;
+}
+
+/* Grid */
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.gridElem {
+	background-color: green;
+	margin: 10px;
+}
+
+/* Nav */
+
+.nav-container {
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 20px;
+}
+
+nav a {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+footer p {
+	margin: 0;
+}
+
+.footer-content {
+	padding: 40px 0;
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-txt {
+	margin: auto 20px;
+	white-space: nowrap;
+}
+
+.icons {
+	font-size: 45px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icons a {
+	margin: 0 10px;
+	transition: 0.5s ease-in-out;
+}
+
+.icons a:visited {
+	color: black;
+}
+
+.icons a:hover {
+	transform: scale(1.1);
+}
+
+.fa-facebook-square, .fa-instagram, .fa-linkedin, .fa-tumblr-square {
+	transition: 0.5s ease-in-out;
+}
+
+.fa-facebook-square:hover {
+	color: #4267b2;
+}
+
+.fa-instagram:hover {
+	color: #d057a6;
+}
+
+.fa-linkedin:hover {
+	color: #0077b5;
+}
+
+.fa-tumblr-square:hover {
+	color: #314358;
+}
+
+/* Everything else */
+
+.content, nav {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.description {
+	padding: 25px;
+}

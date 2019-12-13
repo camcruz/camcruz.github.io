@@ -1,0 +1,13 @@
+.profile-img {
+    width: 350px;
+    max-width: 80%;
+    border-radius: 50%;
+    margin: 2em;
+}
+
+.star-list {
+	width: fit-content;
+	width: -moz-fit-content;
+	margin: auto;
+	list-style-type: circle;
+}

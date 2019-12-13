@@ -47,6 +47,18 @@ p, li {
 	color: rgb(119, 190, 93);
 }
 
+.color1 {
+	color: #fa8072;
+}
+
+.color2 {
+	color: #a4d555;
+}
+
+.color3 {
+	color: #43cacc;
+}
+
 /* Overlay */
 
 .overlay {
@@ -115,6 +127,11 @@ nav a {
 	font-weight: bold;
 	font-style: italic;
 	font-size: 1.5em;
+	transition: 0.25s ease-in-out;
+}
+
+nav a:hover {
+	transform: scale(1.2);
 }
 
 /* Footer */

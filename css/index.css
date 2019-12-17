@@ -8,12 +8,12 @@
 	max-width: 300px;
     width: 75%;
     min-width: 150px;
-    border-radius: 20%;
 }
 
 h3 {
 	font-size: 2.5vw;
 	white-space: nowrap;
+	font-family: 'Bebas Neue', cursive;
 }
 
 .content-item {
